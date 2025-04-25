@@ -1,0 +1,13 @@
+
+<div class="company-container">
+    <h2>🏢 Company Brands</h2>
+  
+    <div class="company-grid">
+      <div class="company-card" *ngFor="let company of companies">
+        <h3>{{ company.brand }}</h3>
+        <p>{{ company.itemCount }} product</p>
+        <a href="#">More info</a>
+      </div>
+    </div>
+  </div>
+  

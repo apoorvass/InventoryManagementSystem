@@ -1,0 +1,19 @@
+<div class="form-container">
+    <h2>Add New Warehouse</h2>
+    <form (ngSubmit)="onSubmit()">
+      <label>Location</label>
+      <input type="text" [(ngModel)]="warehouse.location" name="location" required />
+  
+      <label>Capacity</label>
+      <input type="number" [(ngModel)]="warehouse.capacity" name="capacity" required />
+  
+      <label>Manager</label>
+      <input type="text" [(ngModel)]="warehouse.manager" name="manager" required />
+  
+      <label>Phone Number</label>
+      <input type="text" [(ngModel)]="warehouse.phone" name="phone" required />
+  
+      <button type="submit">Add Warehouse</button>
+    </form>
+  </div>
+  

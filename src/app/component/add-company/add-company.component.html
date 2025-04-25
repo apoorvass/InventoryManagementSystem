@@ -1,0 +1,13 @@
+<div class="form-container">
+    <h2>Add New Company</h2>
+    <form (ngSubmit)="onSubmit()">
+      <label>Brand Name</label>
+      <input type="text" [(ngModel)]="company.brandName" name="brandName" required />
+  
+      <label>Number of Items</label>
+      <input type="number" [(ngModel)]="company.itemCount" name="itemCount" required />
+  
+      <button type="submit">Add Company</button>
+    </form>
+  </div>
+  

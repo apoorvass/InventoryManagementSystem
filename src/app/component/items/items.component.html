@@ -1,0 +1,28 @@
+<div class="page-header">
+    <h2>📦 Items Overview</h2>
+    <span class="breadcrumb">Home > Items</span>
+  </div>
+  
+  <div class="items-table-container">
+    <table class="items-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Stock</th>
+          <th>Price (₹)</th>
+          <th>Category</th>
+          <th>Storage Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of items">
+          <td>{{ item.name }}</td>
+          <td>{{ item.stock }}</td>
+          <td>{{ item.price }}</td>
+          <td>{{ item.category }}</td>
+          <td>{{ item.location }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

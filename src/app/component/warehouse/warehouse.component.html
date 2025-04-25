@@ -1,0 +1,14 @@
+<div class="warehouse-container">
+    <h2>🏬 Warehouse Information</h2>
+  
+    <div class="warehouse-grid">
+      <div class="warehouse-card" *ngFor="let wh of warehouses">
+        <h3>{{ wh.location }}</h3>
+        <p><strong>Capacity:</strong> {{ wh.capacity }} units</p>
+        <p><strong>Manager:</strong> {{ wh.manager }}</p>
+        <p><strong>Phone:</strong> {{ wh.phone }}</p>
+        <a href="#">More info</a>
+      </div>
+    </div>
+  </div>
+  

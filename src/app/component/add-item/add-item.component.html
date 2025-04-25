@@ -1,0 +1,26 @@
+<div class="add-item-container">
+    <h2>Add New Item</h2>
+    <form (ngSubmit)="onSubmit()">
+      <label>Item Name</label>
+      <input type="text" [(ngModel)]="item.name" name="name" required />
+  
+      <label>Stock</label>
+      <input type="number" [(ngModel)]="item.stock" name="stock" required />
+  
+      <label>Price</label>
+      <input type="number" [(ngModel)]="item.price" name="price" required />
+  
+      <label>Category</label>
+      <select [(ngModel)]="item.category" name="category" required>
+        <option *ngFor="let cat of categories" [value]="cat">{{ cat }}</option>
+      </select>
+  
+      <label>Storage Location</label>
+      <select [(ngModel)]="item.location" name="location" required>
+        <option *ngFor="let loc of locations" [value]="loc">{{ loc }}</option>
+      </select>
+  
+      <button type="submit">Add Item</button>
+    </form>
+  </div>
+  

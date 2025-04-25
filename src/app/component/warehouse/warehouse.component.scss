@@ -1,0 +1,48 @@
+.warehouse-container {
+    padding: 30px;
+    background-color: #f3f6f9;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .warehouse-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .warehouse-card {
+    background-color: #f39c12;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .warehouse-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .warehouse-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .warehouse-card p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .warehouse-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

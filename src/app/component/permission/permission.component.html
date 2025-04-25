@@ -1,0 +1,25 @@
+<div class="section">
+    <h2><i class="fa-solid fa-lock"></i> Role Permissions</h2>
+  
+    <div class="permissions-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Module Access</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let perm of permissions">
+            <td>{{ perm.role }}</td>
+            <td>{{ perm.access.join(', ') }}</td>
+            <td>{{ perm.canEdit ? '✅' : '❌' }}</td>
+            <td>{{ perm.canDelete ? '✅' : '❌' }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
