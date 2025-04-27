@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NavComponent } from '../nav/nav.component';
 
 @Component({
   selector: 'app-warehouse',
   standalone: true, 
-  imports: [CommonModule],
+  imports: [CommonModule, NavComponent],
   templateUrl: './warehouse.component.html',
   styleUrls: ['./warehouse.component.scss']
 })

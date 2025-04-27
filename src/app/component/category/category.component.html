@@ -1,5 +1,13 @@
 <div class="category-container">
+  <div>
+    <app-nav></app-nav>
+  </div>
+  <div>
+  <div class="page-header">
     <h2>📦 Category Overview</h2>
+    <span class="breadcrumb">Home &gt; Items</span>
+  </div>
+  
   
     <div class="category-grid">
       <div class="category-card" *ngFor="let category of categories">
@@ -8,5 +16,6 @@
         <a href="#">More info</a>
       </div>
     </div>
+  </div>
   </div>
   

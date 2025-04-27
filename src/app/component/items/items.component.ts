@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { NavComponent } from "../nav/nav.component";
 
 @Component({
   selector: 'app-items',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink, NavComponent],
   templateUrl: './items.component.html',
   styleUrl: './items.component.scss'
 })

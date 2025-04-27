@@ -20,7 +20,7 @@ import { PermissionComponent } from "./component/permission/permission.component
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ],
+  imports: [RouterOutlet,NavComponent ],
   template: `
     <div class="main-body">        
         <!-- <app-nav></app-nav> -->

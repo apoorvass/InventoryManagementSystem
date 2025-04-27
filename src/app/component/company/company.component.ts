@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NavComponent } from '../nav/nav.component';
 
 @Component({
   selector: 'app-company',
-  imports: [CommonModule],
+  imports: [CommonModule, NavComponent],
   templateUrl: './company.component.html',
   styleUrl: './company.component.scss'
 })

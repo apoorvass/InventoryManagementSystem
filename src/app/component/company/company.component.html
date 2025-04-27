@@ -1,6 +1,14 @@
 
 <div class="company-container">
+  <div>
+    <app-nav></app-nav>
+  </div>
+  <div>
+  <div class="page-header">
     <h2>🏢 Company Brands</h2>
+    <span class="breadcrumb">Home &gt; Items</span>
+  </div>
+    
   
     <div class="company-grid">
       <div class="company-card" *ngFor="let company of companies">
@@ -8,6 +16,7 @@
         <p>{{ company.itemCount }} product</p>
         <a href="#">More info</a>
       </div>
+    </div>
     </div>
   </div>
   

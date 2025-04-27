@@ -1,9 +1,19 @@
 .section {
-    margin: 30px;
-    padding: 20px;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    // margin: 30px;
+    // padding: 20px;
+    // background: #fff;
+    // border-radius: 12px;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    // display: flex;
+    padding: 30px;
+    background-color: #f3f6f9;
+    display: flex; 
+  }
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
   }
   
   h2 {

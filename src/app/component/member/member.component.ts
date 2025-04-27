@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NavComponent } from '../nav/nav.component';
 
 @Component({
   selector: 'app-member',
-  imports: [CommonModule],
+  imports: [CommonModule, NavComponent],
   templateUrl: './member.component.html',
   styleUrl: './member.component.scss'
 })

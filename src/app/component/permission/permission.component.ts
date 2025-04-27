@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NavComponent } from '../nav/nav.component';
 
 @Component({
   selector: 'app-permission',
-  imports: [CommonModule],
+  imports: [CommonModule, NavComponent],
   templateUrl: './permission.component.html',
   styleUrl: './permission.component.scss'
 })

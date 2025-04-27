@@ -1,6 +1,14 @@
 .warehouse-container {
     padding: 30px;
     background-color: #f3f6f9;
+    display: flex;
+  }
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
   }
   
   h2 {
